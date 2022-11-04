@@ -1,6 +1,6 @@
 package com.burakerdem.business.dao;
 
-import com.burakerdem.data.entity.Customer;
+import com.burakerdem.business.dto.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

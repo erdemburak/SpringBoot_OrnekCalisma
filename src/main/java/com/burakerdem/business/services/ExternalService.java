@@ -5,7 +5,7 @@ import com.burakerdem.business.dto.CustomerDto;
 import lombok.Getter;
 import lombok.Setter;
 import org.modelmapper.ModelMapper;
-import com.burakerdem.data.entity.Customer;
+import com.burakerdem.business.dto.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;

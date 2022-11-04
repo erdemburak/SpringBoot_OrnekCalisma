@@ -1,4 +1,4 @@
-package com.burakerdem.data.entity;
+package com.burakerdem.business.dto.entity;
 
 import lombok.*;
 import org.hibernate.annotations.SQLDelete;
@@ -13,13 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @SQLDelete(sql = "UPDATE Customer SET deleted = true WHERE customerId = ?")
 @Where(clause = "deleted=false")
-public class Customer{
-
-    @Id
-    @Column(name = "CUSTOMERID", nullable = false)
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Getter @Setter
-    private Long customerId;
+public class Customer extends BaseEntity{
 
     @Getter @Setter
     @Column(name = "CUSTOMERNAME", length = 200, nullable = false)

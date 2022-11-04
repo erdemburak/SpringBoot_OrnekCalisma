@@ -1,7 +1,7 @@
 package com.burakerdem.business.services;
 
 import com.burakerdem.business.dto.CustomerDto;
-import com.burakerdem.data.entity.Customer;
+import com.burakerdem.business.dto.entity.Customer;
 
 import java.util.List;
 
